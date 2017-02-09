@@ -90,6 +90,10 @@ composer update
 composer install
 ```
 
+####Add the module citizenToolKit
+
+To launch the application, you need to install the module citizenToolKit. See below to see how to install modules.
+
 ####Launch the application
 - Launch you http webserver
 - depending on how you webservers alias is configured here the alias is called ''ph'' and pointing to the folder you cloned test this url :
@@ -130,7 +134,7 @@ RewriteRule ^(.*)$ /ph/index.php/$1 [L]
 - cd modules
 - git clone "any of the modules". Currently maintained modules are:
   *  https://github.com/pixelhumain/communecter
-  *  https://github.com/pixelhumain/citizenToolkit
+  *  https://github.com/pixelhumain/citizenToolKit
   *  https://github.com/pixelhumain/cityData
   *  https://github.com/pixelhumain/opendata
   *  https://github.com/pixelhumain/network
