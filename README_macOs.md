@@ -276,9 +276,6 @@ Create the file `.../ph/protected/config/dbconfig.php` with your database name a
 PixelHumain is using yii as based PHP framework.
 To be able to run local instance of pixelhumain you need to create local folders.
 
-* Create a new folder called `runtime` in the directory `.../pixelhumain/ph/protected/`
-* Create a new folder called `assets` in the directory `.../pixelhumain/ph`
-
 ### 3- Initiate dependencies using composer
 
 (use `composer` or `composer.phar` depending on the recognized command)
