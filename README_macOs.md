@@ -270,7 +270,6 @@ Create the file `.../ph/protected/config/dbconfig.php` with your database name a
    		'server' => 'mongodb://127.0.0.1:27017/',
     	'db' => 'pixelhumain',    
 	);
-You can find an example of dbconfig in the file /ph/protected/config/dbconfig.example.php
 
 ### 2- Create local cache folders
 
