@@ -171,10 +171,10 @@ var_dump($this::$a);
             </li>
 	<br/>
             <li><?php  // check extension mongo            	
-            	if(extension_loaded("mongo"))            
-                	echo '<span style="color:green"> extension Mongo v'.phpversion("mongo").' is installed. Used as database by PH</span>';
+            	if(extension_loaded("mongodb"))            
+                	echo '<span style="color:green"> extension Mongodb v'.phpversion("mongodb").' is installed. Used as database by PH</span>';
             	else
-					echo '<span style="color:red"> extension Mongo is not installed. Please install it on your PHP server. It is required for all database stuff</span>';
+					echo '<span style="color:red"> extension Mongodb is not installed. Please install it on your PHP server. It is required for all database stuff</span>';
             	?>
             </li>     
             
@@ -187,7 +187,7 @@ var_dump($this::$a);
             </li>             
 
             <?php
-            if(extension_loaded("mongo"))
+            if(extension_loaded("mongodb"))
             {?>
 	            <li>
 	                <?php 
