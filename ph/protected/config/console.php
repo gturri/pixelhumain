@@ -10,7 +10,7 @@ return array(
 	'preload'=>array('log'),
 	'aliases' => array(
 		'vendor' => realpath(__DIR__ . '/../../vendor/'),
-		'mongoYii' => realpath(__DIR__ . '/../../vendor/sammaye/mongoyii'),
+		'mongoYii' => realpath(__DIR__ . '/../../vendor/sammaye/mongoyii-php7'),
 	),
 	// application components
 	'components'=>array(

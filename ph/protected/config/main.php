@@ -24,7 +24,7 @@ return array(
 	'modulePath' => realpath(__DIR__ . $modulesDir),
 	'aliases' => array(
     	'vendor' => realpath(__DIR__ . '/../../vendor/'),
-    	'mongoYii' => realpath(__DIR__ . '/../../vendor/sammaye/mongoyii'),
+    	'mongoYii' => realpath(__DIR__ . '/../../vendor/sammaye/mongoyii-php7'),
     	'recaptcha' => realpath(__DIR__ . '/../../vendor/google/recaptcha/src/ReCaptcha'),
     	'bootstrap' => realpath(__DIR__ . '/../../vendor/2amigos/yiistrap'),
 		'yiiwheels' => realpath(__DIR__ . '/../../vendor/2amigos/yiiwheels'), 

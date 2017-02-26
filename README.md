@@ -6,7 +6,7 @@ If you are on mac OSX, read this readme first :
 ## Requierement
 Php version : 5.4.X (minimum)
 MongoDB : 2.6.X (tested version - minimum)
-Mongo Driver : 1.4.5 (tested version - minimum)
+[MongoDb Driver](http://pecl.php.net/package/mongodb) : 1.4.5 (tested version - minimum)
 
 
 ##Installation
